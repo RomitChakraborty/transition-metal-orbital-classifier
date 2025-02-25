@@ -1,5 +1,7 @@
 # transition-metal-orbital-classifier
 
+The goals here is to teach a large vision model such as GPT-4o to recognize the shape of molecular orbitals. The approach being taken here is to teach them how to identiy atomic orbitals first, and then the shapes and symmetries of a few basis molecular orbitals. Since one can fine-tune, fine-tuned models, and sequential approach is being professed here.
+
 Classifies atomic orbitals on first-row transition metals by:
 - Running ROHF calculations (e.g., Cr, Mn, Ni, Fe)
 - Performing meta-Löwdin AO analysis
